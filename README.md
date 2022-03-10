@@ -1,2 +1,2 @@
 # Pruebas
-Espacio de pruebas
+Espacio de pruebas donde realizo las primeras prácticas. 

@@ -1,0 +1,19 @@
+int contsen, contsierra;
+ contsen=contsierra=0;
+ 
+ 
+ 
+ loop {
+ 
+ dac1write(25, arreglo_sen[contsen]);
+ dac2write (26, contsierra);
+ 
+ 
+ 
+ contsen++;
+ contsierra++;
+ 
+ if(contsen=255) contsen=0;
+ if(contsierra=255) contsierra=0;
+ 
+ 
